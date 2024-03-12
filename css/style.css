@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url(../img/salad.webp);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image__link a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    background-color: #beda92a4;
+    padding: 2rem;
+    color: #3a310e;
+    border: 2px solid #beda92d9;
+    transition: all 0.5s ease-in-out;
+}
+
+.intro-image__link a:hover {
+    transform:scale(1.1);
+}
+
+.intro-text {
+    height: 250px;
+    background-color: #064b01;
+    color: #f79400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20rem;
+}
+
+.intro-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.quality-image {
+    background-attachment: fixed;
+    background-image: url(../img/salmon.webp);
+    background-size: cover;
+    background-position: cente;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+}
+
+.quality-image__link a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    background-color: #9e3e18ac;
+    padding: 2rem;
+    color:#001c1f;
+    border: 2px solid #9e3e18df;
+    transition: all 0.5s ease-in-out;
+}
+
+.quality-image__link a:hover {
+    transform:scale(1.1);
+}
+
+.quality-text   {
+    height: 250px;
+    background-color:#cfa72f;
+    color: #355e04;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20rem;
+}
+
+.quality-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.origin-image {
+    background-attachment: fixed;
+    background-image: url(../img/vegan.webp);
+    background-size: cover;
+    background-position: cente;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+}
+
+.origin-image__link a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    background-color: #d3b886ac;
+    padding: 2rem;
+    color:#001c1f;
+    border: 2px solid #d3b886dd;
+    transition: all 0.5s ease-in-out;
+}
+
+.origin-image__link a:hover {
+    transform:scale(1.1);
+}
+
+.origin-text { 
+    height: 250px;
+    background-color:#e9d7ad;
+    color:#e66f02;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20rem;
+}
+
+.origin-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.footer {
+    height: 250px;
+    background-color: #9b4c03;
+    color: #46000b;
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a {
+    color: #46000b;
+    text-decoration: none;
+}
+
+.footer ul li:hover {
+    transform: scale(1.1);
+}
+
+.instagram a:hover {
+    color: rgb(164, 7, 7);
+}
+
+.facebook a:hover {
+    color: rgb(28, 28, 205);
+}
+
+.x-twitter a:hover {
+    color: black;
+}
